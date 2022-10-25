@@ -1,0 +1,49 @@
+:root{--green:#00FF00;
+--white:#FFFFFF;
+--black:#000000;}
+
+body {
+    font-family:monospace;
+  }
+
+  ul{font-family:Helvetica}
+
+ li{list-style:circle;}
+
+ .list{list-style:square;}
+
+ #msg{font-family:monospace;}
+
+ .light-theme{
+    --bg:var(green);
+    --fontColor:var(black);
+ }
+ .dark-theme{
+    --bg:var(black);
+    --fontColor:var(green);
+ }
+
+
+ .btn {
+
+border-radius: 35px;
+
+
+
+ }
+
+ #result {
+ 
+  font-size: 2em;
+   text-align: center;
+   padding-top: 2em;
+
+
+ }
+
+ .container {
+
+margin: 200px auto;
+width:500px;
+
+ }
